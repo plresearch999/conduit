@@ -1,0 +1,6 @@
+A001,Conduit_TC1001_Home, ui automation, because critical and business functionality
+A002,Conduit_TC1002_Reg, integration (API) test, speed and because I don't want to test the registration fields on the frontend, but the backend functionality
+A003,Conduit_TC1004_Login, ui or integration (API) test, ui test because it is critical and can be used as healthcheck/smoke test, API because it is critical functionality that is backend heavy
+A004,Conduit_TC1007_new_post, integration (API) test, because it is data intensive and repetitive test, that is fully doable on API level
+A005,Conduit_TC1010_edit_post, integration (API) test, because it is data intensive and repetitive test, that is fully doable on API level
+...
