@@ -1,0 +1,11 @@
+home screen: presenting the main menu, and the general content for anonymous or logged in users
+registration: allowing anonymous users who don't have yet accoutns to register themselves
+login: allow registered users to log in in order to get more functionality
+new article: allow logged in users to create new articles
+new comment: allow logged in users to comment on existing articles
+(un)favorite articles: allow logged in users to favorite or unfavorite existing articles
+(un)follow authores: allow logged in users to follow and unfollow other authors
+my feed: show logged in users a feed of articles written by followed authors
+my articles: show logged in users a feed of articles they wrote
+artiles details: allow users to view details of articles
+edit/delete my article: allow logged in users to browse and edit or even delete their articles
