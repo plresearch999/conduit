@@ -12,5 +12,5 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=browser_optio
 def test_conduit_up():
     driver.get("http://localhost:1667")
     time.sleep(5)
-    driver.save_screenshot("out/screenshot.png")
+    driver.save_screenshot("screenshot.png")
     driver.quit()
