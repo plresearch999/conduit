@@ -32,6 +32,16 @@ jobs:
         python -m pip install flake8 pytest
         if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
     
+    - name: Install Chrome
+      run: |
+        sudo apt install google-chrome-stable
+    
     - name: Test with pytest
       run: |
         pytest
+        
+    - name: Archive execution artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist-without-markdown
+        path: out
