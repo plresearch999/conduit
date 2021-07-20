@@ -20,6 +20,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: docker-compose up -d
+    
+    - name: Sleep for 10 seconds
+      run: sleep 10s
+      shell: bash
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
