@@ -15,6 +15,9 @@ def test_conduit_up():
     driver.save_screenshot("screenshot.png")
     driver.quit()
     
+    p = Path('.')
+    [x for x in p.iterdir() if x.is_dir()]
+    
     with open(Path("test.txt"), "w") as t:
         t.write('hello')
         
