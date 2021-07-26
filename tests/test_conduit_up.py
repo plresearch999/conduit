@@ -16,7 +16,7 @@ def test_conduit_up():
     driver.quit()
     
     p = Path('.')
-    [x for x in p.iterdir() if x.is_dir()]
+    print([x for x in p.iterdir() if x.is_dir()])
     
     with open(Path("test.txt"), "w") as t:
         t.write('hello')
