@@ -20,3 +20,6 @@ def test_conduit_up():
         
     with open(Path("test.txt"), "rt") as t:
         print(t.read())
+
+    with open(Path("requirements.txt"), "rt") as t:
+        print(t.read())
