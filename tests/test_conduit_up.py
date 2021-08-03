@@ -18,11 +18,11 @@ def test_conduit_up():
     p = Path('.')
     print([x for x in p.iterdir() if x.is_dir()])
     
-    with open(Path("test.txt"), "w") as t:
-        t.write('hello')
+#     with open(Path("test.txt"), "w") as t:
+#         t.write('hello')
         
-    with open(Path("test.txt"), "rt") as t:
-        print(t.read())
+#     with open(Path("test.txt"), "rt") as t:
+#         print(t.read())
 
-    with open(Path("requirements.txt"), "rt") as t:
-        print(t.read())
+#     with open(Path("requirements.txt"), "rt") as t:
+#         print(t.read())
